@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "908797075378",
+    "firebase_url": "https://news-read-de276-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "news-read-de276",
+    "storage_bucket": "news-read-de276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908797075378:android:c08f1cfa952bcffd420eab",
+        "android_client_info": {
+          "package_name": "com.latihan.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908797075378-j5b0of0snob0g4gu28mbsdi5qalme3vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8FaSK1xrXbkltqVo_NiS5V794Uc3tieE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908797075378-j5b0of0snob0g4gu28mbsdi5qalme3vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

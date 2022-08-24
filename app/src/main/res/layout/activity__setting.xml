@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Setting"
+    android:background="@drawable/background_polos">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info Aplikasi"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="
+Aplikasi ini kami buat untuk membantu tuna netra untuk mengikuti berita sehari-hari. Aplikasi ini dapat melakukan penyaringan sehingga dapat mengetahui berita yang hoax dan tidak hoax. Aplikasi ini menggunakan suara sebagai inputannya, jadi para tuna netra akan mudah dalam menjalankannya. Untuk memulai menginputkan suara, pertama yang harus anda dilakukan adalah menggoyangkan perangkat anda ke kanan dan ke kiri (shake) 4-5 kali. Kemudian akan muncul pop-up dan aplikasi akan mulai mendengarkan instruksi suara.\n
+Beberapa instruksi yang dapat digunakan di aplikasi ini adalah sebagai berikut :\n
+“baca berita populer”, untuk membacakan 5 berita popular yang ada di tribunnews. “baca berita pertama”, untuk membaca berita pertama. “baca berita kedua”, untuk membaca berita kedua. “baca berita ketiga”, untuk membaca berita ketiga. “baca berita ke-4”, untuk membaca berita keempat. “baca berita ke-5”, untuk membaca berita kelima."
+                android:textAlignment="center"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
